@@ -15,4 +15,4 @@ an example usage:
     end
  
 ## INSTALL
-  $ [sudo] gem install pivotal_to_pdf
+  $ [sudo] gem install rspec_more
