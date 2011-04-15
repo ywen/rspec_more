@@ -8,6 +8,7 @@ The current supported macros:
 
 This macro does validation for a model and currently only works for DataMapper
 an example usage:
+
     describe User do
       describe "validations" do
         require_attribute :name
