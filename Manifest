@@ -1,0 +1,8 @@
+CHANGELOG
+Gemfile
+Gemfile.lock
+Manifest
+README.rdoc
+Rakefile
+lib/rspec_more.rb
+lib/rspec_more/data_mapper.rb
