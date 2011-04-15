@@ -21,4 +21,4 @@ an example usage:
 
 Then in the spec_helper.rb, add:
 
-   config.extend(RspecMore::DataMapper, :type => :model) 
+    config.extend(RspecMore::DataMapper, :type => :model) 
