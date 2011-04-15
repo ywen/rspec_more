@@ -16,4 +16,9 @@ an example usage:
     end
  
 ## INSTALL
-  $ [sudo] gem install rspec_more
+  
+    $ [sudo] gem install rspec_more
+
+Then in the spec_helper.rb, add:
+
+   config.extend(RspecMore::DataMapper, :type => :model) 
