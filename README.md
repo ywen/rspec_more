@@ -10,10 +10,13 @@ This macro does validation for a model and currently only works for DataMapper
 an example usage:
 
     describe User do
+      let(:user) {User.make_unsaved} # suppose you use machinist
       describe "validations" do
         require_attribute :name
       end
     end
+
+The *let* that defines *user* method is required for now. The macro relies on the model object is defined
  
 ## INSTALL
   
