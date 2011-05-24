@@ -5,4 +5,6 @@ Manifest
 README.md
 Rakefile
 lib/rspec_more.rb
+lib/rspec_more/active_record.rb
 lib/rspec_more/data_mapper.rb
+rspec_more.gemspec

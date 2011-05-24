@@ -1,6 +1,10 @@
 require 'rubygems'
-require 'rspec'
-require 'rspec-rails'
+begin
+  require 'rspec'
+  require 'rspec-rails'
+rescue MissingSourceFile => e
+  require 'spec'
+end
 def require_all_files_under(directory)
   Dir.open(directory) do |dir|
     dir.entries.each do |file_name|
