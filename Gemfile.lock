@@ -3,12 +3,12 @@ GEM
   specs:
     allison (2.0.3)
     diff-lcs (1.1.2)
-    echoe (4.5.5)
+    echoe (4.5.2)
       allison
       gemcutter
       rubyforge
     gemcutter (0.7.0)
-    json_pure (1.5.1)
+    json_pure (1.5.3)
     rake (0.8.7)
     rspec (2.5.0)
       rspec-core (~> 2.5.0)
@@ -25,6 +25,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  echoe
+  echoe (= 4.5.2)
   rake
   rspec

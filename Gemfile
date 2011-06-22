@@ -2,5 +2,5 @@ source 'http://rubygems.org'
 gem 'rspec'
 group 'dev' do
   gem "rake"
-  gem "echoe"
+  gem "echoe", "4.5.2"
 end
