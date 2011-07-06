@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rspec_more}
-  s.version = "0.3"
+  s.version = "0.3.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Yi Wen}]
-  s.date = %q{2011-06-24}
+  s.date = %q{2011-07-06}
   s.description = %q{A Rspec extension for more macros and matchers, etc.}
   s.email = %q{hayafirst@gmail.com}
   s.extra_rdoc_files = [%q{CHANGELOG}, %q{README.md}, %q{lib/rspec_more.rb}, %q{lib/rspec_more/active_record.rb}, %q{lib/rspec_more/data_mapper.rb}]
